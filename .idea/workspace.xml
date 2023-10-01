@@ -4,30 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bfd42cb3-31a5-4553-b635-b645bdaa347b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/import_csv.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/import_csv.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/token_sheets_v4.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/api/token_sheets_v4.pickle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/importer/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/importer/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/importer/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/importer/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/importer/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/importer/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/importer/public/logo192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/importer/public/logo512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/importer/public/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/importer/public/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/importer/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/importer/src/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/importer/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/importer/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/importer/src/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/importer/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/importer/src/reportWebVitals.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/importer/src/setupTests.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/token_sheets_v4.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/token_sheets_v4.pickle" afterDir="false" />
-    </list>
+    <list default="true" id="bfd42cb3-31a5-4553-b635-b645bdaa347b" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,12 +24,12 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/temp/stackit-hiring-assignment-Rahulrayudu&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "E:/import_csv_google"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Python.import_csv">
     <configuration name="gy" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="stackit-hiring-assignment-Rahulrayudu" />
