@@ -31,6 +31,8 @@ Before using the app, make sure you have the following:
    pip install -r requirements.txt
    ```
 
+3. Main code Directory:<br/>
+   ***api/import_csv.py***
 
 ### Usage
   - Run the StackIt app by executing the following command:
