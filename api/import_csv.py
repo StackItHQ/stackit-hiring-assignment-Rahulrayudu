@@ -17,20 +17,23 @@ service = Create_Service(CLIENT_SECRET_FILE, API_SERVICE_NAME, API_VERSION, SCOP
 
 
 def main():
-    st.subheader("StockIt")
+    st.subheader("StockIt Please Upload the CSV file")
     data = st.file_uploader("Upload a Dataset", type=["csv", "txt"])
+
 
     if data is not None:
         df = pd.read_csv(data)
         st.dataframe(df.head())
 
         # Allow the user to select columns
+        st.subheader("Select the Columns")
         selected_columns = st.multiselect("Select Columns", df.columns.tolist())
         if selected_columns:
             new_df = df[selected_columns]
             st.dataframe(new_df.head())
             df = new_df
 
+        st.subheader("Filter Option")
         selec_column = st.selectbox("Select Columns for Filter", df.columns.tolist())
         if selec_column:
             # Infer the data type of the selected column
