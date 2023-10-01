@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bfd42cb3-31a5-4553-b635-b645bdaa347b" name="Changes" comment="" />
+    <list default="true" id="bfd42cb3-31a5-4553-b635-b645bdaa347b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/import_csv.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/import_csv.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,7 +31,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "E:/import_csv_google"
+    "last_opened_file_path": "E:/temp/stackit-hiring-assignment-Rahulrayudu"
   }
 }]]></component>
   <component name="RunManager" selected="Python.import_csv">

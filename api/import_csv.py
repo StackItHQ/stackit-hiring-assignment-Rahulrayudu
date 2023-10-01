@@ -53,7 +53,7 @@ def main():
         unsafe_allow_html=True
     )
 
-    st.title("StockIt - Google Sheets Integration")
+    st.title("StackIt - Google Sheets Integration")
     st.subheader("Upload a CSV File")
 
     data = st.file_uploader("Upload a Dataset", type=["csv", "txt"])
@@ -122,7 +122,7 @@ def main():
                     st.dataframe(new_df1.head())
                     st.write(f"Data Type: {column_dtype}")
 
-                    if st.button("Apply Filter"):
+                    if st.button("Apply Filter and Import to Sheet"):
                         response = service.spreadsheets().values().append(
                             spreadsheetId=SPREADSHEET_ID,
                             valueInputOption='RAW',
