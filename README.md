@@ -44,18 +44,16 @@ Before using the app, make sure you have the following:
   - Click the "Apply Filter" button to send the filtered data to a Google Sheets spreadsheet.
   - Check your Google Sheets account to find the filtered data saved in the specified spreadsheet.
 
-
-- [✔] My code's working just fine! 🥳
-- [✔] I have recorded a video showing it working and embedded it in the README ▶️
-- [✔] I have tested all the normal working cases 😎
-- [✔] I have even solved some edge cases 💪
-- [✔] I added my very planned-out approach to the problem at the end of this README 📜
-
 ## Deployed on Streamlit
  - https://importcsvtoappsheets-ftfz63bkt8m8qvrzka5ayw.streamlit.app/
  - Please Vist the deployed page 
   ![Working](./working_video/IMG1.png)
 
-
+## Checklist
+- [✔] My code's working just fine! 🥳
+- [✔] I have recorded a video showing it working and embedded it in the README ▶️
+- [✔] I have tested all the normal working cases 😎
+- [✔] I have even solved some edge cases 💪
+- [✔] I added my very planned-out approach to the problem at the end of this README 📜
 ## Developer's Section
 *Add your video here, and your approach to the problem (optional). Leave some comments for us here if you want, we will be reading this :)*
