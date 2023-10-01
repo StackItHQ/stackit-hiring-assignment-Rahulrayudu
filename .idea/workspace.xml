@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bfd42cb3-31a5-4553-b635-b645bdaa347b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/api/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/Google.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/import_csv.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/import_csv.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,12 +27,12 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "E:/temp/stackit-hiring-assignment-Rahulrayudu"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/temp/stackit-hiring-assignment-Rahulrayudu&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="import_csv" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="stackit-hiring-assignment-Rahulrayudu" />

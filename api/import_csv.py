@@ -13,8 +13,8 @@ SCOPES = ['https://www.googleapis.com/auth/spreadsheets']
 service = Create_Service(CLIENT_SECRET_FILE, API_SERVICE_NAME, API_VERSION, SCOPES)
 
 spreadsheet_id = "13k7aQPXNujk9hBH1SIO9-Ff_B1auPVGu_cbLNJew2H0"  # Please put your Spreadsheet ID.
-sheet_name = "Sheet1"  # Please put the sheet ID of the sheet you want to use.
-csv_file = "C:/Users/sandi/Downloads/crash_catalonia.csv"  # Please put the file path of the CSV file you want to use.
+sheet_name = "Sheet2"  
+csv_file = "C:/Users/sandi/Downloads/biostats.csv"  # Please put the file path of the CSV file you want to use.
 
 f = open(csv_file, "r")
 values = [r for r in csv.reader(f)]
