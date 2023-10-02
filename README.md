@@ -32,12 +32,13 @@ Before using the app, make sure you have the following:
    ```
 
 3. Main code Directory:<br/>
-   ***api/import_csv.py***
+    * **api/import_csv.py**
 
 ### Usage
   - Run the StackIt app by executing the following command:
+  - run the api/import_csv.py file
     ```bash 
-    streamlit run filepath.py
+    streamlit run filepath.py 
     ```
   - The app will open in your web browser. You can now use it to upload a CSV file and perform data analysis.
   - Upload a dataset by clicking the "Upload a Dataset" button and selecting a CSV file from your local machine.
@@ -58,4 +59,7 @@ Before using the app, make sure you have the following:
 - [✔] I have even solved some edge cases 💪
 - [✔] I added my very planned-out approach to the problem at the end of this README 📜
 ## Developer's Section
-*Add your video here, and your approach to the problem (optional). Leave some comments for us here if you want, we will be reading this :)*
+- https://drive.google.com/file/d/1thGEfHq4thCFOC6m8yH0L3sHYAXQea_m/view?usp=sharing
+- The working video is in this directory (working_video/working_Stackit.mp4)
+- Main code Directory (api/import_csv.py)
+
