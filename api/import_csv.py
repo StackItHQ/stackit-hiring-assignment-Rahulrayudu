@@ -121,17 +121,18 @@ def main():
                     st.subheader("Filtered Data")
                     st.dataframe(new_df1.head())
                     st.write(f"Data Type: {column_dtype}")
+                    df=new_df1
 
-                    if st.button("Apply Filter and Import to Sheet"):
-                        response = service.spreadsheets().values().append(
-                            spreadsheetId=SPREADSHEET_ID,
-                            valueInputOption='RAW',
-                            range='Sheet1',
-                            body=dict(
-                                majorDimension='ROWS',
-                                values=new_df1.T.reset_index().T.values.tolist())
-                        ).execute()
-                        st.success("Filter Applied and Data Sent to Google Sheets!")
+        if st.button("Apply Filter and Import to Sheet"):
+            response = service.spreadsheets().values().append(
+                spreadsheetId=SPREADSHEET_ID,
+                valueInputOption='RAW',
+                range='Sheet1',
+                body=dict(
+                    majorDimension='ROWS',
+                    values=df.T.reset_index().T.values.tolist())
+            ).execute()
+            st.success("Filter Applied and Data Sent to Google Sheets!")
 
 
 if __name__ == '__main__':
