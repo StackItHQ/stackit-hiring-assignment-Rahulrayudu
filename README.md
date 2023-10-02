@@ -58,8 +58,19 @@ Before using the app, make sure you have the following:
 - [✔] I have tested all the normal working cases 😎
 - [✔] I have even solved some edge cases 💪
 - [✔] I added my very planned-out approach to the problem at the end of this README 📜
+
+## planned-out approach
+ - **Google Sheets API Setup:** We need to create the Sheets API and use Create_Service function to create Google Sheets service instance. Get the required API credentials as client_secret JSON file. So, no need to expose the Key 
+ - **Imports and Constants:** code starts by importing necessary libraries and defining some constants such as file paths, Google API credentials, and the target Google Sheets spreadsheet ID
+ - **Using Streamlit:** a open source framework for make the web application
+ - **File Upload:** Giving drag and drop option for user to upload the csv file
+ - **Size Constraints:** he uploaded file is read into a Pandas DataFrame (df).
+ - **Column Selection:** Users can select columns from the DataFrame they want to work with using the st.multiselect widget.
+ - **Data Filtering:** Based on the user's selections, the code filters the DataFrame and displays the filtered data in a Streamlit DataFrame
+ - **Data Import to Google Sheets:** send the filtered data to a Google Sheets spreadsheet
 ## Developer's Section
 - https://drive.google.com/file/d/1thGEfHq4thCFOC6m8yH0L3sHYAXQea_m/view?usp=sharing
 - The working video is in this directory (working_video/working_Stackit.mp4)
 - Main code Directory (api/import_csv.py)
+ [![working](./working_video/IMG3.png)](./working_video/working_Stackit.mp4)
 
